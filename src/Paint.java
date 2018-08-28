@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 
 public class Paint {
 
@@ -29,6 +28,7 @@ public class Paint {
 	public int getCoverage() {
 		return coverage;
 	}
+	
 
 	public void setCoverage(int coverage) {
 		this.coverage = coverage;

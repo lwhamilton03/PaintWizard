@@ -5,7 +5,10 @@ public class MainRunner {
 					
 				PaintWizard paint = new PaintWizard(); 
 				
-				System.out.println(paint.cheapest());					
+				paint.newPaint();
+					
+				System.out.println(paint.cheapest());	
+				System.out.println(paint.wastePaint(229));
 				} 
 	
 }
